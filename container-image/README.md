@@ -6,7 +6,9 @@ A few notes:
 
 *Secure Api Token is your API Token within Sysdig, under your user profile.
 
-## Run it
+## Deploying and using sysdig-cli-scanner
+
+This will download the scanner and do a sample scan on the dummy docker image
 
 docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.5.2 --apiurl *api-urls-below* pull://docker.io/sysdiglabs/dummy-vuln-app 
 
