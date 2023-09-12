@@ -8,7 +8,7 @@ A few notes:
 
 ## Run it
 
-<p> docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.5.2 --apiurl *api-urls-below* pull://docker.io/sysdiglabs/dummy-vuln-app </p>
+<p> <br> docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.5.2 --apiurl *api-urls-below* pull://docker.io/sysdiglabs/dummy-vuln-app </p>
 
 ## Sysdig API URLs
 
