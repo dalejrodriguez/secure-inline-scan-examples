@@ -8,7 +8,7 @@ A few notes:
 ## Run it
 
 ```
-$ docker run -e SECURE_API_TOKEN="X" ghcr.io/sysdiglabs/sysdig-cli-scanner:1.2.10 --apiurl https://eu1.app.sysdig.com pull://docker.io/sysdiglabs/dummy-vuln-app
+$ docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.5.2 --apiurl https://eu1.app.sysdig.com pull://docker.io/sysdiglabs/dummy-vuln-app
 2022-10-28T10:23:05Z Starting analysis with Sysdig scanner version 1.2.10-rc
 2022-10-28T10:23:05Z Retrieving vulnerabilities DB...
 2022-10-28T10:23:07Z Done 116.3 MB
