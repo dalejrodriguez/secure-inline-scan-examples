@@ -2,8 +2,6 @@
 
 A few notes:
 
-*This is the current workaround, please reach out to your Sales Engineer for assistance with this container. 
-
 *Secure Api Token is your API Token within Sysdig, under your user profile.
 
 ## Deploying and using sysdig-cli-scanner
