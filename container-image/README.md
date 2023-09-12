@@ -4,7 +4,7 @@ A few notes:
 
 *Secure Api Token is your API Token within Sysdig, under your user profile.
 
-*For support please reachout to your Sales Engineer.  
+*For support please reach out to your Sales Engineer.  
 
 ## Deploying and using sysdig-cli-scanner
 
