@@ -12,7 +12,7 @@ This will download the scanner and do a sample scan on the dummy docker image
 
 docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.6.1 --apiurl *api-url* pull://docker.io/sysdiglabs/dummy-vuln-app 
 
-Or view the package:
+Or view the package page:
 
 https://github.com/dalejrodriguez/secure-inline-scan-examples/pkgs/container/sysdig-cli-scanner
 
