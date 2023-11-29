@@ -173,7 +173,7 @@ docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.6
 It is possible to view scan results in the terminal window (see below)
 
 ```
-$ docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.5.2 --apiurl https://us2.app.sysdig.com docker.io/sysdiglabs/dummy-vuln-app
+$ docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.6.1 --apiurl https://us2.app.sysdig.com docker.io/sysdiglabs/dummy-vuln-app
 
 Type: dockerImage
 ImageID: sha256:b670c067178c876d17363baec279d483ae07384351d1a0be7646230442471ac6
