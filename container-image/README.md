@@ -10,7 +10,7 @@ A few notes:
 
 This will download the scanner and do a sample scan on the dummy docker image
 
-docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.5.2 --apiurl *api-url* pull://docker.io/sysdiglabs/dummy-vuln-app 
+docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.6.1 --apiurl *api-url* pull://docker.io/sysdiglabs/dummy-vuln-app 
 
 ## Sysdig API URLs
 
@@ -34,7 +34,7 @@ The `sysdig-cli-scanner` can be included as a step in your CI/CD pipelines (i.e.
 * Include a step in your pipeline to run the `sysdig-cli-scanner` after building the container image, and providing the image name as paremeter. For example:
 
 ```yaml
-docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.5.2 --apiurl <sysdig-api-url> ${IMAGE_NAME}
+docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.6.1 --apiurl <sysdig-api-url> ${IMAGE_NAME}
 ```
 
 See some examples on how to use it on different CI/CD pipelines:
@@ -165,7 +165,7 @@ The Sysdig CLI scanner can load images from different sources. By default, it wi
 i.e. pull the image from remote registry even if it is locally available:
 
 ```yaml
-docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.5.2 -a *api-url* pull://nginx:latest
+docker run -e SECURE_API_TOKEN="X" ghcr.io/dalejrodriguez/sysdig-cli-scanner:1.6.1 -a *api-url* pull://nginx:latest
 ```
 
 ### Sample Result in Terminal
